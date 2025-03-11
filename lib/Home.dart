@@ -223,6 +223,18 @@ class _HomeState extends State<Home> {
                     ),
                     child: const Text('จัดการบัญชี', style: TextStyle(color: Colors.white, fontSize: 18)),
                   ),
+                  const SizedBox(height: 10),
+                  ElevatedButton(
+                    onPressed: () => Navigator.pushNamed(context, 'Api'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.red,
+                      padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                      shadowColor: Colors.red,
+                      elevation: 5,
+                    ),
+                    child: const Text('Api', style: TextStyle(color: Colors.white, fontSize: 18)),
+                  ),
                 ],
               ),
             ),

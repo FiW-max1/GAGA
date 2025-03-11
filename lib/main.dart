@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firstweek/Home.dart';
 import 'package:firstweek/firebase_options.dart';
 import 'package:firstweek/screen/GAMEMENU.dart';
+import 'package:firstweek/screen/api.dart';
 import 'package:firstweek/screen/firebaseregister.dart';
 import 'package:firstweek/screen/game.dart';
 import 'package:firstweek/screen/menugame2.dart';
@@ -34,6 +35,7 @@ class Myapp extends StatelessWidget {
         'User' : (context) => Users(),
         'Home' : (context) => Home(),
         'videoyoutube' : (context) => Videoyoutube(),
+        'Api' : (context) => JokeScreen(),
         
 
       },
